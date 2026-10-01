@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="280" viewBox="0 0 940 280">
+<rect width="940" height="280" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router#show version</text>
+<text x="14" y="72">Cisco IOS Software, 1841 Software (C1841-ADVSECURITYK9-M), Version 12.4(24)T3, RELEASE SOFTWARE (fc2)</text>
+<text x="14" y="92">System image file is "flash:c1841-advsecurityk9-mz.124-24.T3.bin"</text>
+<text x="14" y="112">[...]</text>
+<text x="14" y="132">Cisco 1841 (revision 7.0) with 236544K/25600K bytes of memory.</text>
+<text x="14" y="152">4 FastEthernet interfaces</text>
+<text x="14" y="172">1 Serial(sync/async) interface</text>
+<text x="14" y="192">1 Virtual Private Network (VPN) Module</text>
+<text x="14" y="212">191K bytes of NVRAM.</text>
+<text x="14" y="232">Configuration register is 0x2102</text>
+<text x="14" y="252">Router#</text>
+</g></svg>

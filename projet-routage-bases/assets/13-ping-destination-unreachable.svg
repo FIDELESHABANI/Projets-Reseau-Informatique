@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260">
+<rect width="940" height="260" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Terminal PC (Git Bash)</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">$ ping 192.168.20.1</text>
+<text x="14" y="72"></text>
+<text x="14" y="92">Pinging 192.168.20.1 with 32 bytes of data:</text>
+<text x="14" y="112">Reply from 192.168.10.1: Destination host unreachable.</text>
+<text x="14" y="132">Reply from 192.168.10.1: Destination host unreachable.</text>
+<text x="14" y="152">Reply from 192.168.10.1: Destination host unreachable.</text>
+<text x="14" y="172">Reply from 192.168.10.1: Destination host unreachable.</text>
+<text x="14" y="192"></text>
+<text x="14" y="212">Ping statistics for 192.168.20.1:</text>
+<text x="14" y="232">    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</text>
+</g></svg>

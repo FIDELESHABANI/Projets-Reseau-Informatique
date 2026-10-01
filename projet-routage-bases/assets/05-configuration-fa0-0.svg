@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="240" viewBox="0 0 940 240">
+<rect width="940" height="240" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router&gt;enable</text>
+<text x="14" y="72">Router#conf t</text>
+<text x="14" y="92">Enter configuration commands, one per line.  End with CNTL/Z.</text>
+<text x="14" y="112">Router(config)#interface fa0/0</text>
+<text x="14" y="132">Router(config-if)#ip address 192.168.10.1 255.255.255.0</text>
+<text x="14" y="152">Router(config-if)#no shutdown</text>
+<text x="14" y="172">*Jan  1 01:43:18.855: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up</text>
+<text x="14" y="192">*Jan  1 01:43:19.855: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up</text>
+<text x="14" y="212">Router(config-if)#</text>
+</g></svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="240" viewBox="0 0 940 240">
+<rect width="940" height="240" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Terminal PC (Git Bash)</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">$ arp -a</text>
+<text x="14" y="72"></text>
+<text x="14" y="92">Interface: 192.168.10.10 --- 0x16</text>
+<text x="14" y="112">  Internet Address      Physical Address      Type</text>
+<text x="14" y="132">  192.168.10.1          18-ef-63-54-dd-44     dynamic</text>
+<text x="14" y="152">  192.168.10.255        ff-ff-ff-ff-ff-ff     static</text>
+<text x="14" y="172">  224.0.0.2             01-00-5e-00-00-02     static</text>
+<text x="14" y="192">  [...]</text>
+<text x="14" y="212">  255.255.255.255       ff-ff-ff-ff-ff-ff     static</text>
+</g></svg>

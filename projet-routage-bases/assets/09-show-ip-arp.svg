@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="160" viewBox="0 0 940 160">
+<rect width="940" height="160" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router#show ip arp</text>
+<text x="14" y="72">Protocol  Address          Age (min)  Hardware Addr   Type   Interface</text>
+<text x="14" y="92">Internet  192.168.10.1            -   18ef.6354.dd44  ARPA   FastEthernet0/0</text>
+<text x="14" y="112">Internet  192.168.10.10           3   10e7.c66a.e513  ARPA   FastEthernet0/0</text>
+<text x="14" y="132">Router#</text>
+</g></svg>
