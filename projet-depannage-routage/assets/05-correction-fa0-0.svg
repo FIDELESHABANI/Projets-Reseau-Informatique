@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="220" viewBox="0 0 940 220">
+<rect width="940" height="220" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router#conf t</text>
+<text x="14" y="72">Enter configuration commands, one per line.  End with CNTL/Z.</text>
+<text x="14" y="92">Router(config)#int fa0/0</text>
+<text x="14" y="112">Router(config-if)#ip add 192.168.10.1 255.255.255.0</text>
+<text x="14" y="132">Router(config-if)#end</text>
+<text x="14" y="152">Router#</text>
+<text x="14" y="172">*Jan  1 00:33:13.495: %SYS-5-CONFIG_I: Configured from console by console</text>
+<text x="14" y="192">Router#</text>
+</g></svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="460" viewBox="0 0 940 460">
+<rect width="940" height="460" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841 (extrait de show running-config)</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router#show running-config</text>
+<text x="14" y="72">[...]</text>
+<text x="14" y="92">interface FastEthernet0/0</text>
+<text x="14" y="112"> ip address 192.168.10.1 255.255.255.0</text>
+<text x="14" y="132"> duplex auto</text>
+<text x="14" y="152"> speed auto</text>
+<text x="14" y="172">!</text>
+<text x="14" y="192">interface FastEthernet0/1</text>
+<text x="14" y="212"> no ip address</text>
+<text x="14" y="232"> shutdown</text>
+<text x="14" y="252"> duplex auto</text>
+<text x="14" y="272"> speed auto</text>
+<text x="14" y="292">!</text>
+<text x="14" y="312">interface Serial0/0/0</text>
+<text x="14" y="332"> no ip address</text>
+<text x="14" y="352"> shutdown</text>
+<text x="14" y="372"> no fair-queue</text>
+<text x="14" y="392"> clock rate 2000000</text>
+<text x="14" y="412">!</text>
+<text x="14" y="432">[...]</text>
+</g></svg>

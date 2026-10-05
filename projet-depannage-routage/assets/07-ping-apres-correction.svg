@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="480" viewBox="0 0 940 480">
+<rect width="940" height="480" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Terminal PC (Git Bash)</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">$ ping 192.168.10.1</text>
+<text x="14" y="72"></text>
+<text x="14" y="92">Pinging 192.168.10.1 with 32 bytes of data:</text>
+<text x="14" y="112">Request timed out.</text>
+<text x="14" y="132">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="152">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="172">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="192"></text>
+<text x="14" y="212">Ping statistics for 192.168.10.1:</text>
+<text x="14" y="232">    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),</text>
+<text x="14" y="252"></text>
+<text x="14" y="272">$ ping 192.168.10.1</text>
+<text x="14" y="292"></text>
+<text x="14" y="312">Pinging 192.168.10.1 with 32 bytes of data:</text>
+<text x="14" y="332">Reply from 192.168.10.1: bytes=32 time&lt;1ms TTL=255</text>
+<text x="14" y="352">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="372">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="392">Reply from 192.168.10.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="412"></text>
+<text x="14" y="432">Ping statistics for 192.168.10.1:</text>
+<text x="14" y="452">    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</text>
+</g></svg>

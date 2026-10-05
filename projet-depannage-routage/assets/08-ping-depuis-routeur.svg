@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="200" viewBox="0 0 940 200">
+<rect width="940" height="200" rx="10" fill="#0f172a"/>
+<rect width="940" height="28" rx="10" fill="#1e293b"/>
+<text x="14" y="19" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Console : routeur Cisco 1841</text>
+<g font-family="Consolas, Courier New, monospace" font-size="13" fill="#e2e8f0" xml:space="preserve">
+<text x="14" y="52">Router#ping 192.168.10.10</text>
+<text x="14" y="72"></text>
+<text x="14" y="92">Type escape sequence to abort.</text>
+<text x="14" y="112">Sending 5, 100-byte ICMP Echos to 192.168.10.10, timeout is 2 seconds:</text>
+<text x="14" y="132">!!!!!</text>
+<text x="14" y="152">Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms</text>
+<text x="14" y="172">Router#</text>
+</g></svg>
