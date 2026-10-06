@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="178" viewBox="0 0 900 178">
+<rect width="900" height="178" rx="8" fill="#1e1e1e"/>
+<rect width="900" height="32" rx="8" fill="#333333"/>
+<text x="16" y="21" font-family="Consolas,Courier New,monospace" font-size="14" fill="#dddddd">Console : routeur Cisco 1841</text>
+<text x="16" y="56" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">R1-1841#ping 192.168.10.10</text>
+<text x="16" y="74" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="92" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Type escape sequence to abort.</text>
+<text x="16" y="110" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Sending 5, 100-byte ICMP Echos to 192.168.10.10, timeout is 2 seconds:</text>
+<text x="16" y="128" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">!!!!!</text>
+<text x="16" y="146" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms</text>
+</svg>

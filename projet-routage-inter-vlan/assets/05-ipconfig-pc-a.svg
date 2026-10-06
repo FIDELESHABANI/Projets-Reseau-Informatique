@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="304" viewBox="0 0 900 304">
+<rect width="900" height="304" rx="8" fill="#1e1e1e"/>
+<rect width="900" height="32" rx="8" fill="#333333"/>
+<text x="16" y="21" font-family="Consolas,Courier New,monospace" font-size="14" fill="#dddddd">Terminal PC (Git Bash)</text>
+<text x="16" y="56" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">$ ipconfig</text>
+<text x="16" y="74" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">[...]</text>
+<text x="16" y="92" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Ethernet adapter Ethernet:</text>
+<text x="16" y="110" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="128" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+<text x="16" y="146" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   IPv4 Address. . . . . . . . . . . : 192.168.10.10</text>
+<text x="16" y="164" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Subnet Mask . . . . . . . . . . . : 255.255.255.0</text>
+<text x="16" y="182" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Default Gateway . . . . . . . . . : 192.168.10.1</text>
+<text x="16" y="200" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">[...]</text>
+<text x="16" y="218" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Wireless LAN adapter Wi-Fi:</text>
+<text x="16" y="236" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="254" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="16" y="272" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+</svg>

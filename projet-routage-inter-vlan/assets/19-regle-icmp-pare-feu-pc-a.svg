@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="106" viewBox="0 0 900 106">
+<rect width="900" height="106" rx="8" fill="#1e1e1e"/>
+<rect width="900" height="32" rx="8" fill="#333333"/>
+<text x="16" y="21" font-family="Consolas,Courier New,monospace" font-size="14" fill="#dddddd">Invite de commandes (administrateur)</text>
+<text x="16" y="56" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">C:\Windows\system32&gt;netsh advfirewall firewall add rule name="ICMP-TEST" protocol=icmpv4:8,any dir=in action=allow</text>
+<text x="16" y="74" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Ok.</text>
+</svg>

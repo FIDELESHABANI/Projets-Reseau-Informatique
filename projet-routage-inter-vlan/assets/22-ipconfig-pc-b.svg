@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="628" viewBox="0 0 900 628">
+<rect width="900" height="628" rx="8" fill="#1e1e1e"/>
+<rect width="900" height="32" rx="8" fill="#333333"/>
+<text x="16" y="21" font-family="Consolas,Courier New,monospace" font-size="14" fill="#dddddd">Invite de commandes : PC-B</text>
+<text x="16" y="56" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">C:\Users\Razor&gt;ipconfig</text>
+<text x="16" y="74" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="92" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Windows IP Configuration</text>
+<text x="16" y="110" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="128" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Wireless LAN adapter Wi-Fi:</text>
+<text x="16" y="146" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="164" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="16" y="182" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+<text x="16" y="200" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="218" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Wireless LAN adapter Local Area Connection* 1:</text>
+<text x="16" y="236" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="254" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="16" y="272" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+<text x="16" y="290" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="308" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Wireless LAN adapter Local Area Connection* 2:</text>
+<text x="16" y="326" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="344" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="16" y="362" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+<text x="16" y="380" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="398" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Ethernet adapter Ethernet:</text>
+<text x="16" y="416" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="434" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+<text x="16" y="452" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   [...]</text>
+<text x="16" y="470" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   IPv4 Address. . . . . . . . . . . : 192.168.20.10</text>
+<text x="16" y="488" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Subnet Mask . . . . . . . . . . . : 255.255.255.0</text>
+<text x="16" y="506" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Default Gateway . . . . . . . . . : 192.168.20.1</text>
+<text x="16" y="524" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="542" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">Ethernet adapter Bluetooth Network Connection:</text>
+<text x="16" y="560" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"></text>
+<text x="16" y="578" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="16" y="596" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">   Connection-specific DNS Suffix  . :</text>
+</svg>

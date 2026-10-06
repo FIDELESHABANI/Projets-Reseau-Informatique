@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196">
+<rect width="900" height="196" rx="8" fill="#1e1e1e"/>
+<rect width="900" height="32" rx="8" fill="#333333"/>
+<text x="16" y="21" font-family="Consolas,Courier New,monospace" font-size="14" fill="#dddddd">Console : switch Cisco 2960</text>
+<text x="16" y="56" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">SW-2960#show startup-config | include hostname |trunk| access vlan</text>
+<text x="16" y="74" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">hostname SW-2960</text>
+<text x="16" y="92" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"> switchport access vlan 10</text>
+<text x="16" y="110" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">[...]  (12 lignes au total pour le VLAN 10)</text>
+<text x="16" y="128" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"> switchport access vlan 20</text>
+<text x="16" y="146" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre">[...]  (12 lignes au total pour le VLAN 20)</text>
+<text x="16" y="164" font-family="Consolas,Courier New,monospace" font-size="13" fill="#d4d4d4" xml:space="preserve" style="white-space:pre"> switchport mode trunk</text>
+</svg>
