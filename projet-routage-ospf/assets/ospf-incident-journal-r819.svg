@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1299" height="250" viewBox="0 0 1299 250">
+<rect width="1299" height="250" rx="6" fill="#1e1e1e"/>
+<rect width="1299" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 819</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819(config)#router ospf 1</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819(config-router)#no network 10.0.0.0 0.0.0.3 area 0</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819(config-router)#network 10.0.0.0 0.0.0.3 area 1</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819(config-router)#end</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">*Oct 20 14:55:46.026: %OSPF-5-ADJCHG: Process 1, Nbr 1.1.1.1 on GigabitEthernet0 from FULL to DOWN, Neighbor Down: Interface down or detached</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">*Oct 20 14:56:15.010: %OSPF-4-ERRRCV: Received invalid packet: mismatched area ID from backbone area from 10.0.0.1, GigabitEthernet0</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">*Oct 20 14:56:24.826: %OSPF-4-ERRRCV: Received invalid packet: mismatched area ID from backbone area from 10.0.0.1, GigabitEthernet0</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">*Oct 20 14:56:34.334: %OSPF-4-ERRRCV: Received invalid packet: mismatched area ID from backbone area from 10.0.0.1, GigabitEthernet0</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+</svg>

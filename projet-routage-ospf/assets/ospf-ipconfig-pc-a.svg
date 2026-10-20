@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="543" height="310" viewBox="0 0 543 310">
+<rect width="543" height="310" rx="6" fill="#1e1e1e"/>
+<rect width="543" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Terminal PC (Git Bash)</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">$ ipconfig</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Ethernet adapter Ethernet:</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   Connection-specific DNS Suffix  . :</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   IPv4 Address. . . . . . . . . . . : 192.168.2.10</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   Subnet Mask . . . . . . . . . . . : 255.255.255.0</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   Default Gateway . . . . . . . . . : 192.168.2.1</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Wireless LAN adapter Wi-Fi:</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   Media State . . . . . . . . . . . : Media disconnected</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">   Connection-specific DNS Suffix  . :</text>
+</svg>

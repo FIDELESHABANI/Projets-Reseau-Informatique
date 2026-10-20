@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="150" viewBox="0 0 768 150">
+<rect width="768" height="150" rx="6" fill="#1e1e1e"/>
+<rect width="768" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 819</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#show ip ospf neighbor</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Neighbor ID     Pri   State           Dead Time   Address         Interface</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1.1.1.1           1   FULL/DR         00:00:39    10.0.0.1        GigabitEthernet0</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#</text>
+</svg>

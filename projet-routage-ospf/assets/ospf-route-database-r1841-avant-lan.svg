@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="696" height="470" viewBox="0 0 696 470">
+<rect width="696" height="470" rx="6" fill="#1e1e1e"/>
+<rect width="696" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip route</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Gateway of last resort is not set</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">     10.0.0.0/30 is subnetted, 1 subnets</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">C       10.0.0.0 is directly connected, FastEthernet0/1</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip osp database</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">            OSPF Router with ID (1.1.1.1) (Process ID 1)</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                Router Link States (Area 0)</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Link ID         ADV Router      Age         Seq#       Checksum Link count</text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1.1.1.1         1.1.1.1         1257        0x80000004 0x0070A0 1</text>
+<text x="14" y="332" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">2.2.2.2         2.2.2.2         1258        0x80000003 0x0034D4 1</text>
+<text x="14" y="352" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="372" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                Net Link States (Area 0)</text>
+<text x="14" y="392" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="412" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Link ID         ADV Router      Age         Seq#       Checksum</text>
+<text x="14" y="432" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">10.0.0.2        2.2.2.2         1258        0x80000001 0x0031EB</text>
+<text x="14" y="452" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>

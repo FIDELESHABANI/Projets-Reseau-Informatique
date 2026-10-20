@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="525" height="230" viewBox="0 0 525 230">
+<rect width="525" height="230" rx="6" fill="#1e1e1e"/>
+<rect width="525" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Terminal PC (Git Bash)</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">$ tracert 192.168.7.10</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Tracing route to 192.168.7.10 over a maximum of 30 hops</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  1    <lt;1 ms    <lt;1 ms    <lt;1 ms  192.168.2.1</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  2     1 ms     1 ms    <lt;1 ms  10.0.0.2</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  3     2 ms     2 ms     2 ms  192.168.7.10</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Trace complete.</text>
+</svg>

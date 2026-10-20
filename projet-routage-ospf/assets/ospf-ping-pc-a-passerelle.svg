@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="543" height="470" viewBox="0 0 543 470">
+<rect width="543" height="470" rx="6" fill="#1e1e1e"/>
+<rect width="543" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Terminal PC (Git Bash)</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">$ ping 192.168.2.1</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Pinging 192.168.2.1 with 32 bytes of data:</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Request timed out.</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Ping statistics for 192.168.2.1:</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">$ ping 192.168.2.1</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Pinging 192.168.2.1 with 32 bytes of data:</text>
+<text x="14" y="332" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time<lt;1ms TTL=255</text>
+<text x="14" y="352" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="372" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="392" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Reply from 192.168.2.1: bytes=32 time=1ms TTL=255</text>
+<text x="14" y="412" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="432" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Ping statistics for 192.168.2.1:</text>
+<text x="14" y="452" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),</text>
+</svg>

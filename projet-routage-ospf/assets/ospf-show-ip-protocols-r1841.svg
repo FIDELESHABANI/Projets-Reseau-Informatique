@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="579" height="530" viewBox="0 0 579 530">
+<rect width="579" height="530" rx="6" fill="#1e1e1e"/>
+<rect width="579" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip protocols</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Routing Protocol is "ospf 1"</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Outgoing update filter list for all interfaces is not set</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Incoming update filter list for all interfaces is not set</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Router ID 1.1.1.1</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Number of areas in this router is 1. 1 normal 0 stub 0 nssa</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Maximum path: 4</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Routing for Networks:</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    10.0.0.0 0.0.0.3 area 0</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    192.168.2.0 0.0.0.255 area 0</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    192.168.3.0 0.0.0.255 area 0</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"> Reference bandwidth unit is 100 mbps</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Passive Interface(s):</text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    FastEthernet0/0</text>
+<text x="14" y="332" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    FastEthernet0/0.2</text>
+<text x="14" y="352" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    FastEthernet0/0.3</text>
+<text x="14" y="372" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Serial0/0/0</text>
+<text x="14" y="392" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    FastEthernet0/1/0</text>
+<text x="14" y="412" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    FastEthernet0/1/1</text>
+<text x="14" y="432" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Routing Information Sources:</text>
+<text x="14" y="452" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Gateway         Distance      Last Update</text>
+<text x="14" y="472" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Distance: (default is 110)</text>
+<text x="14" y="492" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="512" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>
