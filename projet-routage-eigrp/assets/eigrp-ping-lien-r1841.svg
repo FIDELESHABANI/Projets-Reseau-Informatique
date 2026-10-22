@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="642" height="310" viewBox="0 0 642 310">
+<rect width="642" height="310" rx="6" fill="#1e1e1e"/>
+<rect width="642" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#ping 10.0.0.2</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Type escape sequence to abort.</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">.!!!!</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/1 ms</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#ping 10.0.0.2</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Type escape sequence to abort.</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Sending 5, 100-byte ICMP Echos to 10.0.0.2, timeout is 2 seconds:</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">!!!!!</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>

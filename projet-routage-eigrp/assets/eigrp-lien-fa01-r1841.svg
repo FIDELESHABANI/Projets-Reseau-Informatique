@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="150" viewBox="0 0 750 150">
+<rect width="750" height="150" rx="6" fill="#1e1e1e"/>
+<rect width="750" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip interface brief | include FastEthernet0/1</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1            10.0.0.1        YES manual up                    up</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1/0          unassigned      YES unset  administratively down down</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1/1          unassigned      YES unset  administratively down down</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>

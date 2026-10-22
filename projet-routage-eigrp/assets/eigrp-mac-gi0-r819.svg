@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="110" viewBox="0 0 660 110">
+<rect width="660" height="110" rx="6" fill="#1e1e1e"/>
+<rect width="660" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 819</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#show interfaces gigabitEthernet 0 | include address</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Hardware is PQ3_TSEC, address is 80e8.6f9b.2c83 (bia 80e8.6f9b.2c83)</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="741" height="370" viewBox="0 0 741 370">
+<rect width="741" height="370" rx="6" fill="#1e1e1e"/>
+<rect width="741" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : switch Catalyst 3550</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">SW-3550#show vlan brief</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">VLAN Name                             Status    Ports</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">---- -------------------------------- --------- -------------------------------</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1    default                          active    Fa0/17, Fa0/18, Fa0/19, Fa0/20</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                                                Fa0/21, Fa0/22, Fa0/23, Fa0/24</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                                                Gi0/1, Gi0/2</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">40   FIN                              active    Fa0/1, Fa0/2, Fa0/3, Fa0/4</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                                                Fa0/5, Fa0/6, Fa0/7, Fa0/8</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">50   VENTES                           active    Fa0/9, Fa0/10, Fa0/11, Fa0/12</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                                                Fa0/13, Fa0/14, Fa0/15, Fa0/16</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1002 fddi-default                     act/unsup</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1003 token-ring-default               act/unsup</text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1004 fddinet-default                  act/unsup</text>
+<text x="14" y="332" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">1005 trnet-default                    act/unsup</text>
+<text x="14" y="352" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">SW-3550#</text>
+</svg>

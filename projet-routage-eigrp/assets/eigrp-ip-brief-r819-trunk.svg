@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="330" viewBox="0 0 786 330">
+<rect width="786" height="330" rx="6" fill="#1e1e1e"/>
+<rect width="786" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 819</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#show ip int br</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Interface                  IP-Address      OK? Method Status                Protocol</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Cellular0                  unassigned      YES unset  up                    up</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Cellular1                  unassigned      YES unset  down                  down</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0              unassigned      YES unset  down                  down</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet1              unassigned      YES unset  down                  down</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet2              unassigned      YES unset  down                  down</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet3              unassigned      YES unset  down                  down</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">GigabitEthernet0           unassigned      YES unset  up                    up</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">GigabitEthernet0.40        192.168.40.1    YES manual up                    up</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">GigabitEthernet0.50        192.168.50.1    YES manual up                    up</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Serial0                    unassigned      YES unset  administratively down down</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Vlan1                      unassigned      YES unset  down                  down</text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#</text>
+</svg>

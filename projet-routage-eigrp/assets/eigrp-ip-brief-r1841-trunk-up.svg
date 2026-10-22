@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="786" height="250" viewBox="0 0 786 250">
+<rect width="786" height="250" rx="6" fill="#1e1e1e"/>
+<rect width="786" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip int br</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Interface                  IP-Address      OK? Method Status                Protocol</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/0            unassigned      YES unset  up                    up</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/0.10         192.168.10.1    YES manual up                    up</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/0.20         192.168.20.1    YES manual up                    up</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1            unassigned      YES unset  administratively down down</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Serial0/0/0                unassigned      YES unset  administratively down down</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1/0          unassigned      YES unset  administratively down down</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">FastEthernet0/1/1          unassigned      YES unset  administratively down down</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>

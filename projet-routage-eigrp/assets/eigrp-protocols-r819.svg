@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="561" height="730" viewBox="0 0 561 730">
+<rect width="561" height="730" rx="6" fill="#1e1e1e"/>
+<rect width="561" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 819</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#show ip protocols</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">[...]</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">Routing Protocol is "eigrp 1"</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Outgoing update filter list for all interfaces is not set</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Incoming update filter list for all interfaces is not set</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Default networks flagged in outgoing updates</text>
+<text x="14" y="172" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Default networks accepted from incoming updates</text>
+<text x="14" y="192" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  EIGRP-IPv4 Protocol for AS(1)</text>
+<text x="14" y="212" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Metric weight K1=1, K2=0, K3=1, K4=0, K5=0</text>
+<text x="14" y="232" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Soft SIA disabled</text>
+<text x="14" y="252" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    NSF-aware route hold timer is 240</text>
+<text x="14" y="272" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Router-ID: 192.168.50.1</text>
+<text x="14" y="292" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Topology : 0 (base)</text>
+<text x="14" y="312" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">      Active Timer: 3 min</text>
+<text x="14" y="332" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">      Distance: internal 90 external 170</text>
+<text x="14" y="352" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">      Maximum path: 4</text>
+<text x="14" y="372" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">      Maximum hopcount 100</text>
+<text x="14" y="392" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">      Maximum metric variance 1</text>
+<text x="14" y="412" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="432" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Automatic Summarization: disabled</text>
+<text x="14" y="452" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Maximum path: 4</text>
+<text x="14" y="472" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Routing for Networks:</text>
+<text x="14" y="492" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    10.0.0.0/30</text>
+<text x="14" y="512" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    192.168.40.0</text>
+<text x="14" y="532" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    192.168.50.0</text>
+<text x="14" y="552" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Passive Interface(s):</text>
+<text x="14" y="572" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    GigabitEthernet0.40</text>
+<text x="14" y="592" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    GigabitEthernet0.50</text>
+<text x="14" y="612" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Routing Information Sources:</text>
+<text x="14" y="632" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    Gateway         Distance      Last Update</text>
+<text x="14" y="652" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">    10.0.0.1              90      00:00:35</text>
+<text x="14" y="672" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">  Distance: internal 90 external 170</text>
+<text x="14" y="692" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4"></text>
+<text x="14" y="712" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-819#</text>
+</svg>

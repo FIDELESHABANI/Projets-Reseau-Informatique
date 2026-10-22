@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="714" height="170" viewBox="0 0 714 170">
+<rect width="714" height="170" rx="6" fill="#1e1e1e"/>
+<rect width="714" height="30" rx="6" fill="#3c3c3c"/>
+<text x="14" y="20" font-family="Consolas,monospace" font-size="13" fill="#d4d4d4">Console : routeur Cisco 1841</text>
+<text x="14" y="52" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#show ip eigrp neighbors</text>
+<text x="14" y="72" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">IP-EIGRP neighbors for process 1</text>
+<text x="14" y="92" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">H   Address                 Interface       Hold Uptime   SRTT   RTO  Q  Seq</text>
+<text x="14" y="112" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">                                            (sec)         (ms)       Cnt Num</text>
+<text x="14" y="132" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">0   10.0.0.2                Fa0/1             13 00:03:15    1   300  0  8</text>
+<text x="14" y="152" xml:space="preserve" font-family="Consolas,monospace" font-size="14" fill="#d4d4d4">R-1841#</text>
+</svg>
