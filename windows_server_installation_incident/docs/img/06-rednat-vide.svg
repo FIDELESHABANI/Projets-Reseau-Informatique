@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="701" height="150" viewBox="0 0 701 150" role="img" aria-label="IPCop – console (root)">
+<title>IPCop – console (root)</title>
+<rect x="0.5" y="0.5" width="700" height="149" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M0.5 10.5a10 10 0 0 1 10-10H690.5a10 10 0 0 1 10 10V34H0.5z" fill="#161b22"/>
+<rect x="0.5" y="33" width="700" height="2" fill="#ef4444"/>
+<circle cx="20" cy="17" r="6" fill="#ff5f56"/><circle cx="40" cy="17" r="6" fill="#ffbd2e"/><circle cx="60" cy="17" r="6" fill="#27c93f"/>
+<text x="82" y="21" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#8b949e">IPCop – console (root)</text>
+<text x="22" y="58" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14" xml:space="preserve"><tspan fill="#7ee787">root@ipcop:~ # </tspan><tspan fill="#e6edf3">iptables -t nat -L REDNAT -n -v</tspan></text>
+<text x="22" y="79" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14" xml:space="preserve"><tspan fill="#b1bac4">Chain REDNAT (1 references)</tspan></text>
+<text x="22" y="100" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14" xml:space="preserve"><tspan fill="#b1bac4"> pkts bytes target     prot opt in     out     source      destination</tspan></text>
+<text x="22" y="121" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14" xml:space="preserve"><tspan fill="#ff7b72">(aucune règle : pas de traduction d’adresses, internet ne sait pas répondre)</tspan></text>
+</svg>
