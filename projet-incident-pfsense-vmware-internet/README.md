@@ -10,9 +10,10 @@ Retour d'expérience sur un incident réseau dans un labo VMware Workstation : l
 2. [Symptômes](#symptômes)
 3. [Les causes trouvées](#les-causes-trouvées)
 4. [Procédure de résolution](#procédure-de-résolution)
-5. [Commandes de diagnostic utiles](#commandes-de-diagnostic-utiles)
-6. [Pièges et fausses pistes](#pièges-et-fausses-pistes)
-7. [État final et suite](#état-final-et-suite)
+5. [Incident 2 : la route par défaut de pfSense disparaît](#incident-2--la-route-par-défaut-de-pfsense-disparaît)
+6. [Commandes de diagnostic utiles](#commandes-de-diagnostic-utiles)
+7. [Pièges et fausses pistes](#pièges-et-fausses-pistes)
+8. [État final et suite](#état-final-et-suite)
 
 ## Contexte
 
@@ -150,12 +151,120 @@ network:
 
 Puis `sudo netplan apply`. Vérifier avant que la carte réseau de la VM est en **Custom: VMnet1**.
 
+## Incident 2 : la route par défaut de pfSense disparaît
+
+**Contexte.** Plus tard, le rôle DHCP a été installé sur Windows Server. Le client Windows 10 reçoit bien son IP du serveur DHCP, mais n'a plus Internet.
+
+### Étape 1. Constater le symptôme sur le client
+
+```bat
+ping 192.168.1.1
+ping 8.8.8.8
+ping google.com
+```
+
+![Client sans Internet](images/08-client-sans-internet.svg)
+
+Lecture des résultats :
+
+- `ping 192.168.1.1` répond : le LAN et le DHCP fonctionnent.
+- `ping 8.8.8.8` reçoit « Impossible de joindre l'hôte » **de la part de `192.168.1.1`** : c'est pfSense qui refuse, il n'a pas de route vers Internet.
+- `ping google.com` échoue parce que le nom n'est pas résolu sans connexion.
+
+Le problème est donc côté WAN de pfSense, pas côté DHCP.
+
+### Étape 2. Tester Internet depuis pfSense
+
+Menu console, option `7` (Ping host), `8.8.8.8`. Résultat : `No route to host`, comme dans l'incident 1 (voir le schéma 03).
+
+### Étape 3. Vérifier l'IP du WAN et la table de routage
+
+Option `8` (Shell) :
+
+```sh
+ifconfig em0 | grep inet
+netstat -rn -f inet
+```
+
+![pfSense sans route par défaut](images/09-pfsense-sans-route.svg)
+
+Le WAN a bien son IP (`192.168.235.133`), mais il n'y a plus de ligne `0.0.0.0` dans la table : **la route par défaut a disparu**.
+
+### Étape 4. Tester en remettant une route à la main
+
+```sh
+route add default 192.168.235.254
+ping -c 3 8.8.8.8
+```
+
+![Route manuelle](images/10-route-manuelle.svg)
+
+Le ping repasse et le client retrouve Internet. Ça confirme la cause, mais ce n'est qu'un test : une route ajoutée à la main disparaît au rechargement de pfSense. De plus, la vraie passerelle du NAT VMware est `192.168.235.2` (étape 5), pas `.254`.
+
+### Étape 5. Regarder les passerelles dans l'interface web
+
+Ouvrir `https://192.168.1.1`, puis **System > Routing > Gateways**.
+
+![Passerelles avant correction](images/11-passerelles-avant.svg)
+
+Deux problèmes visibles :
+
+- **Default gateway IPv4 = `WANGW`**, l'ancienne passerelle `10.10.50.1` de l'incident 1. Elle est désactivée (ligne grisée), donc pfSense n'a plus de passerelle par défaut valide et retire la route.
+- La passerelle `WAN_DHCP` (`192.168.235.2`) est en ligne mais n'est pas utilisée.
+
+### Étape 6. Corriger la passerelle par défaut
+
+1. Dans **Default gateway IPv4**, choisir **WAN_DHCP** (ou **Automatic**).
+2. Cliquer **Save** en bas de la page.
+3. Cliquer **Apply Changes** si le bouton apparaît.
+
+![Passerelles après correction](images/12-passerelles-apres.svg)
+
+Le message « The changes have been applied successfully » confirme l'application, et `WAN_DHCP` est maintenant `Default (IPv4)`.
+
+### Étape 7. Vérifier la route dans le shell
+
+```sh
+netstat -rn -f inet
+ping -c 3 8.8.8.8
+```
+
+![Route permanente](images/13-route-permanente.svg)
+
+La ligne `0.0.0.0 -> 192.168.235.2` (flag `UGS`) est de retour, cette fois gérée par pfSense.
+
+> Attention : écrire `ping -c 3 8.8.8.8`. Avec `ping - 3` (espace après le tiret), pfSense affiche seulement l'aide de la commande.
+
+### Étape 8. Redémarrer pfSense et revérifier
+
+Pour être sûr que la correction est permanente : menu console, option `5` (Reboot system), puis `y`. Une fois redémarré, refaire l'étape 7 : la ligne `0.0.0.0` doit toujours être là.
+
+### Étape 9. Tester depuis le client Windows 10
+
+```bat
+ipconfig /all | findstr /i "DHCP passerelle DNS IPV4"
+ping 8.8.8.8
+ping google.com
+```
+
+![Client OK avec le DHCP du serveur](images/14-client-dhcp-serveur-ok.svg)
+
+Résultat : IP `192.168.1.3` fournie par le serveur DHCP (`192.168.1.150`), passerelle `192.168.1.1` (pfSense), DNS `8.8.8.8`. `google.com` se résout et les pings répondent, avec des pertes ponctuelles dues à la ligne instable.
+
+### Cause et leçon
+
+Quand on a changé le WAN de `10.10.50.x` vers le DHCP (incident 1), pfSense a gardé l'ancienne passerelle `WANGW` (`10.10.50.1`) comme passerelle par défaut. Tant qu'une route existait, rien ne se voyait. Dès que pfSense a rechargé sa configuration, il a retiré la route par défaut.
+
+**À retenir :** après avoir changé l'adressage du WAN, ouvrir **System > Routing > Gateways** et vérifier que la passerelle par défaut IPv4 est `WAN_DHCP` (ou `Automatic`). Ne jamais se contenter d'une route ajoutée avec `route add`.
+
 ## Commandes de diagnostic utiles
 
 | But | Commande | Où |
 |---|---|---|
 | pfSense joint Internet ? | `ping -c 3 8.8.8.8` | shell pfSense |
 | Route par défaut | `netstat -rn -f inet` | shell pfSense |
+| Route de test (temporaire) | `route add default 192.168.235.2` | shell pfSense |
+| Passerelle par défaut permanente | System > Routing > Gateways | interface web pfSense |
 | IP du WAN | `ifconfig em0 \| grep inet` | shell pfSense |
 | DNS de pfSense (Unbound) | `host -W 10 google.com 127.0.0.1` | shell pfSense |
 | DNS amont | `host -W 10 google.com 8.8.8.8` | shell pfSense |
@@ -178,12 +287,12 @@ Méthode : tester d'abord par IP (`8.8.8.8`) pour isoler le routage, puis par no
 
 **Fonctionne :**
 
-- pfSense : WAN en DHCP permanent via le NAT VMware, route par défaut en place.
-- Windows Server (`192.168.1.10`) et Windows 10 (`192.168.1.20`) sortent sur Internet via pfSense.
+- pfSense : WAN en DHCP permanent via le NAT VMware, passerelle par défaut `WAN_DHCP` (`192.168.235.2`) gérée par pfSense.
+- Windows Server : rôle DHCP installé (`192.168.1.150`), avec la passerelle `192.168.1.1` et le DNS `8.8.8.8` dans l'étendue.
+- Windows 10 reçoit son IP du DHCP du serveur et sort sur Internet via pfSense.
 
 **Reste à faire :**
 
-- [ ] Configurer Ubuntu Server.
-- [ ] Désactiver le DHCP de VMware sur VMnet1 (étape 4).
-- [ ] Installer le rôle DHCP sur Windows Server. Dans l'étendue, ajouter l'option **003 Router** = `192.168.1.1` et l'option **006 DNS Servers** = `8.8.8.8`, `8.8.4.4`, puis remettre les clients en DHCP.
+- [ ] Configurer Ubuntu Server (en DHCP, maintenant que le serveur distribue les IP).
+- [ ] Vérifier que le DHCP de VMware sur VMnet1 est bien désactivé (étape 4 de l'incident 1), pour éviter tout conflit avec le DHCP du serveur.
 - [ ] Comprendre pourquoi Unbound renvoie SERVFAIL (le contournement par DNS direct suffit pour le labo).
